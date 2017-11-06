@@ -1,13 +1,24 @@
 {
-  "name": "blueprinter",
+  "name": "blueprinter-cli",
   "version": "1.0.0",
   "description": "",
   "main": "lib/blueprinter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tengattack/blueprinter.git"
+  },
+  "keywords": [
+    "api blueprint"
+  ],
   "author": "tengattack",
   "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/tengattack/blueprinter/issues"
+  },
+  "homepage": "https://github.com/tengattack/blueprinter#readme",
   "dependencies": {
     "comment-parser": "^0.4.2",
     "glob": "^7.1.2"
