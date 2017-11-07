@@ -1,6 +1,6 @@
 {
   "name": "blueprinter-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool for generating API Blueprint document.",
   "bin": {
     "blueprinter": "blueprinter"
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tengattack/blueprinter#readme",
   "dependencies": {
-    "comment-parser": "^0.4.2",
+    "comment-parser": "tengattack/comment-parser",
     "glob": "^7.1.2"
   }
 }
